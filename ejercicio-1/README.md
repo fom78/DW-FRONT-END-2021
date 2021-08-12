@@ -57,4 +57,4 @@ Poco después de su descubrimiento en 1930, Plutón fue clasificado como un plan
 
 
 <h5 align="left">Referencia</h5>
-<img align="center"  width="800px" src="https://github.com/fom78/TIA-PickAndPlace/blob/main/referencia1.jpg" />
+<img align="center"  width="800px" src="https://github.com/fom78/TIA-PickAndPlace/blob/clase01/ejercicio-1/referencia1.jpg" />
