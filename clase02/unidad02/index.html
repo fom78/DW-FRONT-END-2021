@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    #contenedor {
+        margin: auto;
+        padding: 10px;
+        width: 800px;
+        background-color: blueviolet;
+    }
+    #formulario-campo {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3px;
+    }
+    h2 {
+        text-align: center;
+    }
+
+    input {
+        align-items: center;
+        width: 250px;
+}
+</style>
+<body>
+    <form action="alguningresar.html" method="post">
+        <div id="contenedor"> 
+            <h2>Ingrese sus datos de acceso</h2>
+            <div id="formulario-campo">
+                <input type="text" name="dni" placeholder="Ingrese su DNI">
+            </div>
+            <div id="formulario-campo">
+                <input type="password" name="clave" placeholder="Ingrese su Clave UltraSecreta">
+            </div>
+            <div id="formulario-campo">
+                <input type="submit" value="Ingresar">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
