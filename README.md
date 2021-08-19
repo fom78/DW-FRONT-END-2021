@@ -1,6 +1,6 @@
 # DW-FRONT-END-2021
 
-Elija de las ramas la clase que desea ver.
+[El indice con las actividades](https://fom78.github.io/DW-FRONT-END-2021/)
 
 <h2>Indice</h2>
 <h3>Aula Virtual</h3>
