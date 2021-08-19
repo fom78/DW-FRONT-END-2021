@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilla</title>
+</head>
+<style>
+    body {
+        padding-top: 100px;
+    }
+    table {
+        margin: auto;
+        border-spacing: 15px;
+        width: 900px;
+        text-align: center;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color:silver;
+        border: 6px solid black
+    }
+    tr  {
+        height: 60px;
+    }
+    td {
+        border: 3px solid black;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #titulo {
+        background-color:rgb(226, 189, 97);
+        font-weight: 700;
+    }
+    #dias {
+        background-color:dimgray;
+        color: floralwhite;
+    }
+    #dias td {
+        border-color: floralwhite;
+        border-width: 3px;
+    }
+    #html {
+        border-color: red;
+        border-width: 3px;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td colspan="5" id="titulo">CURSOS 2020</td>
+        </tr>
+        <tr id="dias">
+            <td>LUNES</td>
+            <td>MARTES</td>
+            <td>MIERCOLES</td>
+            <td>JUEVES</td>
+            <td>VIERNES</td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>FLASH</td>
+            <td rowspan="2" id="html">HTML</td>
+            <td colspan="2">PHP</td>
+        </tr>
+        <tr>
+            <td colspan="2">CSS</td>
+            <td>DW</td>
+            <td rowspan="2">FLASH</td>
+        </tr>
+        <tr>
+            <td colspan="2">PHP</td>
+            <td>FLASH</td>
+            <td>CSS</td>
+        </tr>
+    </table>
+</body>
+
+</html>
