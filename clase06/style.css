@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	width:960px;
+	height:200px;
+	background-color: rgb(141, 134, 141);
+	margin:auto;
+}
+nav{
+	width:960px;
+	height:45px;
+	background-color:rgb(221, 13, 13);
+	margin:auto;
+	text-align: center;
+	justify-content: center;	
+}
+
+nav a {
+	text-decoration: none;
+}
